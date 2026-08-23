@@ -273,23 +273,23 @@ Create the Flask development environment and establish a clean project structure
 
 ### Deliverables
 
-* [ ] Initialize repository
-* [ ] Create Python virtual environment
-* [ ] Initialize Flask application
-* [ ] Configure Flask application factory
-* [ ] Configure development environment
-* [ ] Configure testing environment
-* [ ] Create source directory structure
-* [ ] Create initial application shell
-* [ ] Create base Jinja2 template
-* [ ] Configure static assets
-* [ ] Create initial CSS
-* [ ] Create initial JavaScript entry point
-* [ ] Create README
-* [ ] Configure Git ignore
-* [ ] Verify development server
-* [ ] Verify production-style application startup
-* [ ] Verify basic Flask test
+* [X] Initialize repository
+* [X] Create Python virtual environment
+* [X] Initialize Flask application
+* [X] Configure Flask application factory
+* [X] Configure development environment
+* [X] Configure testing environment
+* [X] Create source directory structure
+* [X] Create initial application shell
+* [X] Create base Jinja2 template
+* [X] Configure static assets
+* [X] Create initial CSS
+* [X] Create initial JavaScript entry point
+* [X] Create README
+* [X] Configure Git ignore
+* [X] Verify development server
+* [X] Verify production-style application startup
+* [X] Verify basic Flask test
 
 ### Proposed Structure
 
@@ -393,7 +393,11 @@ The project:
 5. Runs the Flask test suite.
 6. Has a clean separation between the game engine and web layer.
 
-**---**
+### Status
+
+**Complete**
+
+---
 
 # 7. Phase 2: Card Domain Model
 
@@ -445,15 +449,15 @@ Therefore:
 
 ### Deliverables
 
-* [ ] Define `Value`
-* [ ] Define `Suit`
-* [ ] Define `Card`
-* [ ] Define card ID convention
-* [ ] Create all 16 cards
-* [ ] Verify card uniqueness
-* [ ] Create card lookup utilities
-* [ ] Create card serialization utilities if required
-* [ ] Write unit tests
+* [X] Define `Value`
+* [X] Define `Suit`
+* [X] Define `Card`
+* [X] Define card ID convention
+* [X] Create all 16 cards
+* [X] Verify card uniqueness
+* [X] Create card lookup utilities
+* [X] Create card serialization utilities if required
+* [X] Write unit tests
 
 ### Example Python Model
 
@@ -479,6 +483,10 @@ The game engine can reliably:
 * Compare cards.
 * Look up cards by ID.
 * Verify that the complete deck contains exactly 16 unique cards.
+
+### Status
+
+**Complete**
 
 ---
 # 8. Phase 3: Board Model
@@ -1383,8 +1391,8 @@ The first release should contain only what is necessary for a complete, polished
 | Phase                                     | Status        |
 | ----------------------------------------- | ------------- |
 | Phase 0: Game Design                      | ✅ Complete    |
-| Phase 1: Project Foundation               | ⬜ Not Started |
-| Phase 2: Card Domain Model                | ⬜ Not Started |
+| Phase 1: Project Foundation               | ✅ Complete    |
+| Phase 2: Card Domain Model                | 🔃 In-Progress |
 | Phase 3: Board Model                      | ⬜ Not Started |
 | Phase 4: Constraint Engine                | ⬜ Not Started |
 | Phase 5: Mathematical Verification        | ⬜ Not Started |
@@ -1668,22 +1676,22 @@ Git
 
 ### Deliverables
 
-* [ ] Create GitHub repository
-* [ ] Create Python virtual environment
-* [ ] Create Flask application factory
-* [ ] Create initial project structure
-* [ ] Configure Flask development environment
-* [ ] Configure pytest
-* [ ] Create `.gitignore`
-* [ ] Create `requirements.txt`
-* [ ] Create `.env.example`
-* [ ] Create initial README
-* [ ] Create base Jinja2 template
-* [ ] Configure static CSS and JavaScript
-* [ ] Create initial home page
-* [ ] Verify Flask development server
-* [ ] Verify test suite
-* [ ] Create initial Git commit
+* [X] Create GitHub repository
+* [X] Create Python virtual environment
+* [X] Create Flask application factory
+* [X] Create initial project structure
+* [X] Configure Flask development environment
+* [X] Configure pytest
+* [X] Create `.gitignore`
+* [X] Create `requirements.txt`
+* [X] Create `.env.example`
+* [X] Create initial README
+* [X] Create base Jinja2 template
+* [X] Configure static CSS and JavaScript
+* [X] Create initial home page
+* [X] Verify Flask development server
+* [X] Verify test suite
+* [X] Create initial Git commit
 
 ### Expected Structure
 
@@ -1742,13 +1750,13 @@ Before building the playable interface, implement the fundamental card system.
 
 ### Deliverables
 
-* [ ] Define card values
-* [ ] Define card suits
-* [ ] Define `Card`
-* [ ] Generate the complete 16-card set
-* [ ] Verify card uniqueness
-* [ ] Implement card lookup
-* [ ] Write unit tests
+* [X] Define card values
+* [X] Define card suits
+* [X] Define `Card`
+* [X] Generate the complete 16-card set
+* [X] Verify card uniqueness
+* [X] Implement card lookup
+* [X] Write unit tests
 
 ### Exit Criteria
 
