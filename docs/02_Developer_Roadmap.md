@@ -497,17 +497,17 @@ Represent a 4 × 4 arrangement independently of the UI.
 
 ### Deliverables
 
-* [ ] Define board type
-* [ ] Define board positions
-* [ ] Define row extraction
-* [ ] Define column extraction
-* [ ] Define main diagonal extraction
-* [ ] Define anti-diagonal extraction
-* [ ] Define card placement
-* [ ] Define card swapping
-* [ ] Define board cloning
-* [ ] Define board equality
-* [ ] Write unit tests
+* [X] Define board type
+* [X] Define board positions
+* [X] Define row extraction
+* [X] Define column extraction
+* [X] Define main diagonal extraction
+* [X] Define anti-diagonal extraction
+* [X] Define card placement
+* [X] Define card swapping
+* [X] Define board cloning
+* [X] Define board equality
+* [X] Write unit tests
 
 ### Example
 
@@ -523,8 +523,11 @@ Board
 
 ### Exit Criteria
 
-Any valid or invalid arrangement of 16 cards can be represented and manipulated programmatically.
+The board model is responsible for board structure and state. It must not contain puzzle validation, scoring, difficulty, hint, or UI logic.
 
+### Status
+
+**Complete**
 ---
 
 # 9. Phase 4: Constraint Engine
@@ -1774,13 +1777,13 @@ Create the representation of the 4 × 4 puzzle board.
 
 ### Deliverables
 
-* [ ] Define board structure
-* [ ] Define board positions
-* [ ] Implement card placement
-* [ ] Implement card movement/swapping
-* [ ] Implement board cloning
-* [ ] Implement board serialization
-* [ ] Write board tests
+* [X] Define board structure
+* [X] Define board positions
+* [X] Implement card placement
+* [X] Implement card movement/swapping
+* [X] Implement board cloning
+* [X] Implement board serialization
+* [X] Write board tests
 
 ### Exit Criteria
 
