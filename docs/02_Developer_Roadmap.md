@@ -540,16 +540,20 @@ This is the most important technical phase.
 
 ### Deliverables
 
-* [ ] Value-line validator
-* [ ] Suit-line validator
-* [ ] Row validator
-* [ ] Column validator
-* [ ] Main diagonal validator
-* [ ] Anti-diagonal validator
-* [ ] Complete-board validator
-* [ ] Difficulty-aware validator
-* [ ] Structured validation result
-* [ ] Unit tests
+* [X] Value-line validator
+* [X] Suit-line validator
+* [X] Row validator
+* [X] Column validator
+* [X] Main diagonal validator
+* [X] Anti-diagonal validator
+* [X] Complete-board validator
+* [X] Difficulty-aware validator
+* [X] Structured validation result
+* [X] Unit tests
+
+### Status
+
+**Complete**
 
 ### Validation Result
 
